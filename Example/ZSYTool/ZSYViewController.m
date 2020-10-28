@@ -8,6 +8,8 @@
 
 #import "ZSYViewController.h"
 
+#import <ZSYTool/UIColor+RGB.h>
+
 @interface ZSYViewController ()
 
 @end
@@ -17,7 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    self.view.backgroundColor = [UIColor randomColor];
+    
 }
 
 - (void)didReceiveMemoryWarning
