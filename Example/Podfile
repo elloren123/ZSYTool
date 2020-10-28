@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZSYTool_Example' do
+  pod 'ZSYTool', :path => '../'
+
+  target 'ZSYTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
